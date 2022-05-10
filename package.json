@@ -1,7 +1,7 @@
 {
   "name": "zen-button",
-  "version": "1.0.0",
-  "description": "Kit of material buttons",
+  "version": "1.0.1",
+  "description": "Button component, simple to use and highly customizable",
   "author": "ux-ui.pro",
   "homepage": "https://zen-button.ux-ui.pro",
   "license": "MIT",
