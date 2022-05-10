@@ -1,0 +1,19 @@
+.btn--disabled {
+    cursor: default;
+    pointer-events: none;
+
+    --c-bg-s: calc(var(--c-base-s) - 10%);
+    --c-bg-l: calc(var(--c-base-l) + 14%);
+
+    --c-text-s: calc(var(--c-base-s) - 10%);
+    --c-text-l: calc(var(--c-base-l) + 14%);
+
+    --c-border-s: calc(var(--c-base-s) - 10%);
+    --c-border-l: calc(var(--c-base-l) + 14%);
+
+    &.btn--contained {
+        --c-text-l: 98%;
+    }
+}
+
+

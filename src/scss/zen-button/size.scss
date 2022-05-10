@@ -1,0 +1,23 @@
+.btn {
+    --size-base: calc(var(--size-step) * 1.2rem);
+    --size-indents: calc(var(--size-base) / 3);
+    --size-icon: calc(var(--size-step) * .4rem + 1.2rem);
+
+    height: var(--size-base);
+    min-width: var(--size-base);
+    font-size: calc(var(--size-step) * .2rem + .8rem);
+
+    &--sm {
+        --size-step: 3;
+    }
+
+    &--md {
+        --size-step: 4;
+    }
+
+    &--lg {
+        --size-step: 5;
+    }
+}
+
+

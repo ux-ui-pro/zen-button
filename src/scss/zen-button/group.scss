@@ -1,0 +1,27 @@
+.btn-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &--left {
+        justify-content: flex-start;
+    }
+
+    &--center {
+        justify-content: center;
+    }
+
+    &--right {
+        justify-content: flex-end;
+    }
+
+    &--fill {
+        justify-content: space-between;
+
+        .btn {
+            flex: 1;
+        }
+    }
+}
+
+

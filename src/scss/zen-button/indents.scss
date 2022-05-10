@@ -1,0 +1,53 @@
+.btn {
+    margin: 0 calc(var(--size-indents) / 1.5);
+
+    &:not(.btn--text) {
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    span.icon:not(:last-child) {
+        margin: 0 -.6rem 0 calc(var(--size-indents) - .2rem);
+    }
+
+    span.label {
+        padding: 0 var(--size-indents);
+
+        + span.icon {
+            margin: 0 calc(var(--size-indents) - .2rem) 0 -.6rem;
+        }
+    }
+
+    &--text {
+        span.icon:not(:last-child) {
+            margin: 0 0 0 calc(var(--size-indents) / 2);
+        }
+
+        span.label {
+            padding: 0 calc(var(--size-indents) / 2);
+
+            + span.icon {
+                margin: 0 calc(var(--size-indents) / 2) 0 0;
+            }
+        }
+
+        + .btn--text {
+            margin-left: calc(var(--size-indents) / 4 - .2rem);
+        }
+
+        &:first-child {
+            margin-left: calc(var(--size-indents) / 2 * -1);
+        }
+
+        &:last-child {
+            margin-right: calc(var(--size-indents) / 2 * -1);
+        }
+    }
+}
+
+
