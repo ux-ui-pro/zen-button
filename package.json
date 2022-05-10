@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Kit of material buttons",
   "author": "ux-ui.pro",
-  "homepage": "https://zen-button.ux-ui.pro/",
+  "homepage": "https://zen-button.ux-ui.pro",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -49,5 +49,25 @@
     "webpack": "^5.69.1",
     "webpack-stream": "^7.0.0"
   },
-  "keywords": []
+  "keywords": [
+    "button",
+    "kit",
+    "material design",
+    "ripple",
+    "ui",
+    "css",
+    "scss",
+    "js",
+    "vanilla",
+    "progress",
+    "disabled",
+    "icon",
+    "outlined",
+    "contained",
+    "component",
+    "group",
+    "interface",
+    "mobile",
+    "desktop"
+  ]
 }
