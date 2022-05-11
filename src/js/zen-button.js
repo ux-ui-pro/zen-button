@@ -1,4 +1,4 @@
-import rippleButton from "./modules/ripple.js"
+import rippleButton from "./modules/ripple-button.js"
 
 rippleButton()
 
