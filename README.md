@@ -5,7 +5,7 @@
 </a>
 <h1>zen-button</h1>
 
-<p>no dependencies, 2Kb gzip</p>
+<p>no dependencies, 3Kb gzip</p>
 
 <p>
   <a href="https://github.com/ux-ui-pro/zen-button/releases/latest">Download</a>
@@ -18,3 +18,17 @@
 </p>
 
 </div>
+
+<br>
+
+## Features
+
+- No dependencies
+- Lightweight, 7.5Kb (2.7Kb gzipped)
+- Flexible and extensible
+- Types of buttons: text, outlined, contained
+- Grouping different types of buttons
+- Progress animation
+- Opaque disabled
+- Ready to go with icons
+- Ripple effect
