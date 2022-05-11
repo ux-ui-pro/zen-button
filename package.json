@@ -10,10 +10,10 @@
     "url": "git+https://github.com/ux-ui-pro/zen-button.git"
   },
   "files": [
-    "docs",
+    "dist",
     "src"
   ],
-  "main": "src/js/modules/zen-button/ripple.js",
+  "main": "dist/js/zen-button.js",
   "bugs": {
     "url": "https://github.com/ux-ui-pro/zen-button/issues"
   },
