@@ -1,6 +1,6 @@
 {
   "name": "zen-button",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Button component, simple to use and highly customizable",
   "author": "ux-ui.pro",
   "homepage": "https://zen-button.ux-ui.pro",
@@ -13,7 +13,7 @@
     "dist",
     "src"
   ],
-  "main": "dist/js/zen-button.js",
+  "main": "src/js/zen-button.js",
   "bugs": {
     "url": "https://github.com/ux-ui-pro/zen-button/issues"
   },
