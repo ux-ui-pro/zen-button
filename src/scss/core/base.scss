@@ -1,28 +1,28 @@
 .btn {
     --c-base: hsla(var(--c-base-h) var(--c-base-s) var(--c-base-l) / var(--c-base-a));
 
-    --c-text-h: var(--c-base-h);
-    --c-text-s: var(--c-base-s);
-    --c-text-l: var(--c-base-l);
-    --c-text-a: var(--c-base-a);
+    --c-text-h: var(--c-base-h, 0);
+    --c-text-s: var(--c-base-s, 0%);
+    --c-text-l: var(--c-base-l, 60%);
+    --c-text-a: var(--c-base-a, 1);
     --c-text: hsla(var(--c-text-h) var(--c-text-s) var(--c-text-l) / var(--c-text-a));
 
-    --c-bg-h: var(--c-base-h);
-    --c-bg-s: var(--c-base-s);
-    --c-bg-l: var(--c-base-l);
-    --c-bg-a: var(--c-base-a);
+    --c-bg-h: var(--c-base-h, 0);
+    --c-bg-s: var(--c-base-s, 0%);
+    --c-bg-l: var(--c-base-l, 68%);
+    --c-bg-a: var(--c-base-a, 1);
     --c-bg: hsla(var(--c-bg-h) var(--c-bg-s) var(--c-bg-l) / var(--c-bg-a));
 
-    --c-border-h: var(--c-base-h);
-    --c-border-s: var(--c-base-s);
-    --c-border-l: var(--c-base-l);
-    --c-border-a: var(--c-base-a);
+    --c-border-h: var(--c-base-h, 0);
+    --c-border-s: var(--c-base-s, 0%);
+    --c-border-l: var(--c-base-l, 68%);
+    --c-border-a: var(--c-base-a, 1);
     --c-border: hsla(var(--c-border-h) var(--c-border-s) var(--c-border-l) / var(--c-border-a));
 
-    --c-ripple-h: var(--c-base-h);
-    --c-ripple-s: var(--c-base-s);
-    --c-ripple-l: var(--c-base-l);
-    --c-ripple-a: var(--c-base-a);
+    --c-ripple-h: var(--c-base-h, 0);
+    --c-ripple-s: var(--c-base-s, 0%);
+    --c-ripple-l: var(--c-base-l, 68%);
+    --c-ripple-a: var(--c-base-a, 1);
     --c-ripple: hsla(var(--c-ripple-h) var(--c-ripple-s) var(--c-ripple-l) / var(--c-ripple-a));
 
     --hover-bezier: 600ms cubic-bezier(0.200, 0.965, 0.000, 1.005);

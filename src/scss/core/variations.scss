@@ -8,14 +8,14 @@
         --c-ripple-l: 100%;
 
         &:hover {
-            --c-bg-s: calc(var(--c-base-s) - 5%);
-            --c-bg-l: calc(var(--c-base-l) - 10%);
+            --c-bg-s: calc(var(--c-base-s, 0%) - 5%);
+            --c-bg-l: calc(var(--c-base-l, 68%) - 10%);
         }
 
         &:not(.btn--ripple) {
             &:active {
-                --c-bg-s: var(--c-base-s);
-                --c-bg-l: var(--c-base-l);
+                --c-bg-s: var(--c-base-s, 0%);
+                --c-bg-l: var(--c-base-l, 68%);
             }
         }
     }
