@@ -3,7 +3,6 @@
 <a href="https://zen-button.ux-ui.pro">
   <img alt="zen-button" src="./images/logo.svg" width="60">
 </a>
-
 <h1>zen-button</h1>
 
 <p>no dependencies, 2Kb gzip</p>
