@@ -21,8 +21,6 @@
 
 </div>
 
-<br>
-
 ## Features
 
 - No dependencies
