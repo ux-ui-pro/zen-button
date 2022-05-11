@@ -7,7 +7,7 @@
 </a>
 <h1>zen-button</h1>
 
-<p>no dependencies, 3Kb gzipped</p>
+<p>no dependencies, 2.7Kb gzipped</p>
 
 <p>
   <a href="https://github.com/ux-ui-pro/zen-button/releases/latest">Download</a>
