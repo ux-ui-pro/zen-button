@@ -33,6 +33,7 @@
 - Opaque disabled
 - Ready to go with icons
 - Ripple effect
+<br>
 
 ## License
 zen-button is released under MIT license
