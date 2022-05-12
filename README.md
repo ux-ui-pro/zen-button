@@ -7,8 +7,6 @@
 </a>
 <h1>zen-button</h1>
 
-<p>no dependencies, 2.7Kb gzipped</p>
-
 [![npm](https://img.shields.io/npm/v/zen-button.svg?colorB=brightgreen)](https://www.npmjs.com/package/zen-button)
 [![GitHub package version](https://img.shields.io/github/package-json/v/ux-ui-pro/zen-button.svg)](https://github.com/ux-ui-pro/zen-button)
 
