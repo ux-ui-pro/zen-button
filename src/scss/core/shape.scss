@@ -2,15 +2,15 @@
     border-radius: 100rem;
     padding: 0 calc(var(--size-indents) / 4);
 
-    span.icon:not(:last-child) {
-        margin: 0 -.6rem 0 calc(var(--size-indents) - .6rem);
-    }
-
-    span.label {
-        + span.icon {
-            margin: 0 calc(var(--size-indents) - .6rem) 0 -.6rem;
-        }
-    }
+    //span.icon:not(:last-child) {
+    //    margin: 0 -.6rem 0 calc(var(--size-indents) - .6rem);
+    //}
+    //
+    //span.label {
+    //    + span.icon {
+    //        margin: 0 calc(var(--size-indents) - .6rem) 0 -.6rem;
+    //    }
+    //}
 }
 
 .btn--shape-rounded {
