@@ -6,14 +6,14 @@
     --c-bg-s: calc(var(--button-color-s, 0%) - 10%);
     --c-bg-l: calc(var(--button-color-l, 68%) + 14%);
 
-    --c-text-s: calc(var(--button-color-s, 0%) - 10%);
-    --c-text-l: calc(var(--button-color-l, 60%) + 14%);
+    --button-text-color-s: calc(var(--button-color-s, 0%) - 10%);
+    --button-text-color-l: calc(var(--button-color-l, 60%) + 14%);
 
     --c-border-s: calc(var(--button-color-s, 0%) - 10%);
     --c-border-l: calc(var(--button-color-l, 68%) + 14%);
 
     &.btn--contained {
-        --c-text-l: 98%;
+        --button-text-color-l: 98%;
     }
 }
 
