@@ -9,6 +9,7 @@
 
 [![npm](https://img.shields.io/npm/v/zen-button.svg?colorB=brightgreen)](https://www.npmjs.com/package/zen-button)
 [![GitHub package version](https://img.shields.io/github/package-json/v/ux-ui-pro/zen-button.svg)](https://github.com/ux-ui-pro/zen-button)
+[![](https://data.jsdelivr.com/v1/package/npm/zen-button/badge?style=rounded)](https://www.jsdelivr.com/package/npm/zen-button)
 
 <p>
   <a href="https://github.com/ux-ui-pro/zen-button/releases/latest">Download</a>
