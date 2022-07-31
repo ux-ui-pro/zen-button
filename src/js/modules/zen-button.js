@@ -21,7 +21,7 @@ function createRipple(e) {
     button.insertAdjacentElement('afterbegin', circle)
 }
 
-export function rippleButton() {
+export function ZenButton() {
     let buttons = document.querySelectorAll('.btn--ripple')
 
     for (let button of buttons) {

@@ -1,5 +1,5 @@
-import { rippleButton } from './modules/ripple-button.js'
+import { ZenButton } from './modules/zen-button.js'
 
-rippleButton()
+ZenButton()
 
 
