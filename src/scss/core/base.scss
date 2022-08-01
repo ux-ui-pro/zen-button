@@ -1,6 +1,4 @@
 .btn {
-    --c-base: hsla(var(--button-color-h) var(--button-color-s) var(--button-color-l) / var(--button-color-a));
-
     --button-text-color-h: var(--button-color-h, 0);
     --button-text-color-s: var(--button-color-s, 0%);
     --button-text-color-l: var(--button-color-l, 60%);
@@ -19,14 +17,13 @@
     --c-border-a: var(--button-color-a, 1);
     --c-border: hsla(var(--c-border-h) var(--c-border-s) var(--c-border-l) / var(--c-border-a));
 
-    --c-ripple-h: var(--button-color-h, 0);
-    --c-ripple-s: var(--button-color-s, 0%);
-    --c-ripple-l: var(--button-color-l, 68%);
-    --c-ripple-a: var(--button-color-a, 1);
-    --c-ripple: hsla(var(--c-ripple-h) var(--c-ripple-s) var(--c-ripple-l) / var(--c-ripple-a));
+    --button-ripple-color-h: var(--button-color-h, 0);
+    --button-ripple-color-s: var(--button-color-s, 0%);
+    --button-ripple-color-l: var(--button-color-l, 68%);
+    --button-ripple-color-a: var(--button-color-a, 1);
+    --button-ripple-color: hsla(var(--button-ripple-color-h) var(--button-ripple-color-s) var(--button-ripple-color-l) / var(--button-ripple-color-a));
 
     --hover-bezier: 600ms cubic-bezier(0.200, 0.965, 0.000, 1.005);
-    --shadow-bezier: 280ms cubic-bezier(0.4, 0, 0.2, 1);
 
     overflow: hidden;
     position: relative;
@@ -48,8 +45,7 @@
     font-weight: 600;
     letter-spacing: .01rem;
     will-change: transform, opacity;
-    transition: background-color var(--hover-bezier), box-shadow var(--shadow-bezier);
-
+    transition: background-color var(--hover-bezier);
     color: var(--button-text-color);
     fill: var(--button-text-color);
     background: var(--c-bg);

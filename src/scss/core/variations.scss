@@ -3,9 +3,9 @@
         --button-text-color-h: 0;
         --button-text-color-s: 0%;
         --button-text-color-l: 100%;
-        --c-ripple-h: 0;
-        --c-ripple-s: 0%;
-        --c-ripple-l: 100%;
+        --button-ripple-color-h: 0;
+        --button-ripple-color-s: 0%;
+        --button-ripple-color-l: 100%;
 
         &:hover {
             --c-bg-s: calc(var(--button-color-s, 0%) - 5%);
