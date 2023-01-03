@@ -12,13 +12,11 @@
 [![NPM Downloads](https://img.shields.io/npm/dm/zen-button.svg?style=flat)](https://www.npmjs.org/package/zen-button)
 
 <p>
-  <a href="https://github.com/ux-ui-pro/zen-button/releases/latest">Download</a>
-  <br>
   <a href="https://zen-button.ux-ui.pro">Getting Started</a>
   <br>
-  <a href="https://zen-button.ux-ui.pro/demo.html">Demo</a>
+  <a href="https://github.com/ux-ui-pro/zen-button/releases/latest">Download</a>
   <br>
-  <a href="https://zen-button.ux-ui.pro/docs.html">Docs</a>
+  <a href="https://zen-button.ux-ui.pro/demo.html">Demo</a>
 </p>
 
 </div>
