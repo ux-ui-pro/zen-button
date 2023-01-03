@@ -1,3 +1,3 @@
-import { ZenButton } from './modules/zen-button.js'
+import { ZenButton } from './zen-button.js'
 
 ZenButton()

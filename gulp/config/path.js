@@ -1,4 +1,5 @@
 import * as nodePath from 'path'
+
 const rootFolder = nodePath.basename(nodePath.resolve())
 
 const buildFolder = `./dist`
@@ -11,9 +12,9 @@ export const path = {
         html: `${buildFolder}/`
     },
     src: {
-        js: `${srcFolder}/js/*.js`,
-        scss: `${srcFolder}/scss/*.scss`,
-        html: [srcFolder + "/**/*.{html,json}", "!" + srcFolder + "/html/**/*"]
+        js: `${srcFolder}/js/index.js`,
+        scss: `${srcFolder}/scss/index.scss`,
+        html: `${srcFolder}/**/*.{html,json}`
     },
     watch: {
         js: `${srcFolder}/js/**/*.js`,

@@ -1,4 +1,4 @@
-function createRipple(e) {
+const ripple = (e) => {
     let button = e.currentTarget,
         circle = document.createElement('span'),
         diameter = Math.max(button.clientWidth, button.clientHeight),
@@ -10,19 +10,21 @@ function createRipple(e) {
     circle.style.top = `${e.pageY - scrollY - (vpOffset.top + radius)}px`
     circle.classList.add('ripple')
 
-    let ripple = button.querySelector('.ripple')
+    const ripple = button.querySelector('.ripple')
 
-    if (ripple) {
-        ripple.remove()
-    }
+    ripple && ripple.remove()
 
     button.insertAdjacentElement('afterbegin', circle)
 }
 
-export function ZenButton() {
-    let buttons = document.querySelectorAll('.btn--ripple')
+const ZenButton = () => {
+    const buttons = document.querySelectorAll('.btn--ripple')
 
-    for (let button of buttons) {
-        button.addEventListener('click', createRipple)
+    for (const button of buttons) {
+        button.addEventListener('click', ripple)
     }
+}
+
+export {
+    ZenButton
 }
