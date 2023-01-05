@@ -12,11 +12,11 @@
         width: calc(var(--size-icon) - .8rem);
         height: calc(var(--size-icon) - .8rem);
         padding: calc(var(--size-base) / 12);
-        -webkit-mask: linear-gradient(var(--button-text-color, white) 0 0) content-box, linear-gradient(var(--button-text-color, white) 0 0);
-                mask: linear-gradient(var(--button-text-color, white) 0 0) content-box, linear-gradient(var(--button-text-color, white) 0 0);
+        -webkit-mask: linear-gradient(var(--c-text, white) 0 0) content-box, linear-gradient(var(--c-text, white) 0 0);
+                mask: linear-gradient(var(--c-text, white) 0 0) content-box, linear-gradient(var(--c-text, white) 0 0);
         -webkit-mask-composite: xor;
                 mask-composite: exclude;
-        background-image: conic-gradient(from 45deg, transparent, var(--button-text-color, white));
+        background-image: conic-gradient(from 45deg, transparent, var(--c-text, white));
         border-radius: 50%;
         animation: progress 750ms linear infinite;
     }
@@ -31,5 +31,3 @@
         transform: rotate(1turn);
     }
 }
-
-

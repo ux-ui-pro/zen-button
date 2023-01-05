@@ -1,14 +1,14 @@
 .btn--ripple {
-    --button-ripple-color-a: .22;
+    --c-ripple-a: .22;
 
     &.btn--contained {
-        --button-ripple-color-a: .28;
+        --c-ripple-a: .28;
     }
 
     .ripple {
         position: absolute;
         border-radius: 50%;
-        background-color: var(--button-ripple-color, transparent);
+        background-color: var(--c-ripple, transparent);
         transform: scale(0);
         animation: ripple .75s linear;
     }
@@ -20,5 +20,3 @@
         opacity: 0;
     }
 }
-
-

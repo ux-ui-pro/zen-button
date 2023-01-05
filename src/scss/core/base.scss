@@ -1,9 +1,9 @@
 .btn {
-    --button-text-color-h: var(--button-color-h, 0);
-    --button-text-color-s: var(--button-color-s, 0%);
-    --button-text-color-l: var(--button-color-l, 60%);
-    --button-text-color-a: var(--button-color-a, 1);
-    --button-text-color: hsla(var(--button-text-color-h) var(--button-text-color-s) var(--button-text-color-l) / var(--button-text-color-a));
+    --c-text-h: var(--button-color-h, 0);
+    --c-text-s: var(--button-color-s, 0%);
+    --c-text-l: var(--button-color-l, 60%);
+    --c-text-a: var(--button-color-a, 1);
+    --c-text: hsla(var(--c-text-h) var(--c-text-s) var(--c-text-l) / var(--c-text-a));
 
     --c-bg-h: var(--button-color-h, 0);
     --c-bg-s: var(--button-color-s, 0%);
@@ -17,11 +17,11 @@
     --c-border-a: var(--button-color-a, 1);
     --c-border: hsla(var(--c-border-h) var(--c-border-s) var(--c-border-l) / var(--c-border-a));
 
-    --button-ripple-color-h: var(--button-color-h, 0);
-    --button-ripple-color-s: var(--button-color-s, 0%);
-    --button-ripple-color-l: var(--button-color-l, 68%);
-    --button-ripple-color-a: var(--button-color-a, 1);
-    --button-ripple-color: hsla(var(--button-ripple-color-h) var(--button-ripple-color-s) var(--button-ripple-color-l) / var(--button-ripple-color-a));
+    --c-ripple-h: var(--button-color-h, 0);
+    --c-ripple-s: var(--button-color-s, 0%);
+    --c-ripple-l: var(--button-color-l, 68%);
+    --c-ripple-a: var(--button-color-a, 1);
+    --c-ripple: hsla(var(--c-ripple-h) var(--c-ripple-s) var(--c-ripple-l) / var(--c-ripple-a));
 
     --hover-bezier: 600ms cubic-bezier(0.200, 0.965, 0.000, 1.005);
 
@@ -46,8 +46,8 @@
     letter-spacing: .01rem;
     will-change: transform, opacity;
     transition: background-color var(--hover-bezier);
-    color: var(--button-text-color);
-    fill: var(--button-text-color);
+    color: var(--c-text);
+    fill: var(--c-text);
     background: var(--c-bg);
     box-shadow: inset 0 0 0 .1rem var(--c-border, transparent);
 
@@ -58,5 +58,3 @@
         height: var(--size-icon);
     }
 }
-
-
