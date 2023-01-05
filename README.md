@@ -24,7 +24,7 @@
 ## Features
 
 - No dependencies
-- Lightweight, 7.5Kb (2.7Kb gzipped)
+- Lightweight 2.7Kb gzipped
 - Flexible and extensible
 - Types of buttons: text, outlined, contained
 - Grouping different types of buttons
