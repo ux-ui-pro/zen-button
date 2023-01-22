@@ -12,14 +12,14 @@
     }
 
     span.icon:not(:last-child) {
-        margin: 0 -.6rem 0 calc(var(--size-indents) - .2rem);
+        margin: 0 -6px 0 calc(var(--size-indents) - 2px);
     }
 
     span.label {
         padding: 0 var(--size-indents);
 
         + span.icon {
-            margin: 0 calc(var(--size-indents) - .2rem) 0 -.6rem;
+            margin: 0 calc(var(--size-indents) - 2px) 0 -6px;
         }
     }
 
@@ -37,7 +37,7 @@
         }
 
         + .btn--text {
-            margin-left: calc(var(--size-indents) / 4 - .2rem);
+            margin-left: calc(var(--size-indents) / 4 - 2px);
         }
 
         &:first-child {

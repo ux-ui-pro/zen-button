@@ -1,6 +1,6 @@
 {
   "name": "zen-button",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "description": "Button component, simple to use and highly customizable",
   "author": "ux-ui.pro",
   "homepage": "https://zen-button.ux-ui.pro",
@@ -19,7 +19,7 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "gulp",
+    "serve": "gulp",
     "build": "gulp build --build"
   },
   "dependencies": {},

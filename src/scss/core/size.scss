@@ -1,11 +1,11 @@
 .btn {
-    --size-base: calc(var(--size-step) * 1.2rem);
+    --size-base: calc(var(--size-step) * 12px);
     --size-indents: calc(var(--size-base) / 3);
-    --size-icon: calc(var(--size-step) * .4rem + 1.2rem);
+    --size-icon: calc(var(--size-step) * 4px + 12px);
 
     height: var(--size-base);
     min-width: var(--size-base);
-    font-size: calc(var(--size-step) * .2rem + .8rem);
+    font-size: calc(var(--size-step) * 2px + 8px);
 
     &--sm {
         --size-step: 3;

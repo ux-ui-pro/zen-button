@@ -9,8 +9,8 @@
         position: absolute;
         top: 0; right: 0; bottom: 0; left: 0;
         margin: auto;
-        width: calc(var(--size-icon) - .8rem);
-        height: calc(var(--size-icon) - .8rem);
+        width: calc(var(--size-icon) - 8px);
+        height: calc(var(--size-icon) - 8px);
         padding: calc(var(--size-base) / 12);
         -webkit-mask: linear-gradient(var(--c-text, white) 0 0) content-box, linear-gradient(var(--c-text, white) 0 0);
                 mask: linear-gradient(var(--c-text, white) 0 0) content-box, linear-gradient(var(--c-text, white) 0 0);
