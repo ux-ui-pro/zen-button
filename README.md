@@ -11,13 +11,11 @@
 [![GitHub package version](https://img.shields.io/github/package-json/v/ux-ui-pro/zen-button.svg)](https://github.com/ux-ui-pro/zen-button)
 [![NPM Downloads](https://img.shields.io/npm/dm/zen-button.svg?style=flat)](https://www.npmjs.org/package/zen-button)
 
-<p>
-  <a href="https://zen-button.ux-ui.pro">Getting Started</a>
-  <br>
-  <a href="https://github.com/ux-ui-pro/zen-button/releases/latest">Download</a>
-  <br>
-  <a href="https://zen-button.ux-ui.pro/demo.html">Demo</a>
-</p>
+<span style="color:red">
+
+### zen-button is no longer supported.<br>This package has been reprofiled to Vue.js<br>and now lives here: [vue-btn-kit](https://www.npmjs.com/package/vue-btn-kit)
+
+</span>
 
 </div>
 
